@@ -9,6 +9,15 @@
 - [ ] Feedback arrows point to the correct stage; stages are neither missing nor silently reordered.
 - [ ] Future plans are not presented as completed experiments.
 
+## Language-mode validation
+- [ ] Language resolved explicitly as zh-CN, en, or bilingual, or inferred appropriately when unspecified.
+- [ ] Chinese-only diagram has Chinese principal labels and no unintended English sentence fragments.
+- [ ] English-only diagram has English principal labels and no unintended Chinese characters.
+- [ ] Bilingual diagram has a consistent visual hierarchy and accurate term mappings.
+- [ ] Technical acronyms, formulas, citations, source names, and variable identifiers remain intact.
+- [ ] English words/compound labels wrap naturally; Chinese line breaks and punctuation are correct.
+- [ ] If both editions are requested, separately render and proofread both while preserving diagram topology.
+
 ## Design and readability
 - [ ] Reference aesthetics respected while avoiding direct copying of protected art.
 - [ ] 16:9 or exact template dimensions retained.
