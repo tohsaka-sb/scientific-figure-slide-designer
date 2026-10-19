@@ -14,3 +14,16 @@ Create a four-stage horizontal research pipeline. Stage 3 is the central admissi
 
 ## Background removal
 Edit this exact uploaded figure: make only its outside background transparent while retaining every card, line, icon, and original text pixel. Keep canvas dimensions. Deliver real RGBA PNG (not black-colored or simulated transparent background); verify alpha channel and composite preview on black and white.
+
+
+## Chinese-only: methodology figure / 中文版方法图
+请使用 scientific-figure-slide-designer Skill，根据我的步骤绘制 16:9 横向科研方法示意图。指定 language=zh-CN：标题、阶段、箭头、图例和结论均使用简体中文；专有名词和 F1 等标准缩写保留。各模块大小均衡，文字可读，交付可编辑 PPTX 与高清 PNG。
+
+## English-only: methodology figure
+Use the scientific-figure-slide-designer skill. Set language=en. Make a 16:9, publication-style methods figure. All visible titles, stage names, annotations, legends, and takeaways must be in fluent English (except formal names and symbols). Keep agent roles, evidence dependencies, and feedback arrows scientifically correct. Provide an editable PPTX and a high-resolution PNG.
+
+## Dual editions: same geometry, two languages
+Create two independent editions of this architecture figure: one with language=zh-CN and one with language=en. Keep node order, arrows, color coding, icon set, and scientific semantics identical. Resize text areas to accommodate English phrases without clipping. Save the outputs as `architecture_zh.png` and `architecture_en.png` (plus separate PPTX files if requested). Do not combine both languages onto one busy image.
+
+## Bilingual: deliberate hierarchy
+请绘制中英双语研究路线图：中文作为主要标题与模块标题，英文仅作为较小的副标题。避免重复长段落，保证投影可读，术语两种语言一一对应。
